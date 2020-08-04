@@ -81,3 +81,37 @@
   font-size: 5em;
   padding: 8px;
 }
+
+.music-grid{
+  display: flex;
+}
+
+.fullHeight{
+  height: 100%;
+}
+
+.pageTitle{ 
+  color: #CEF0D4;
+  font-family: 'Rouge Script', cursive; font-size: 130px;
+  font-weight: normal;
+  line-height: 48px;
+  margin: 0 0 50px;
+  text-align: center;
+  text-shadow: 1px 1px 2px #082b34;
+}
+
+.btn_spotify {
+  float: left;
+  clear: both;
+  background: url(/src/images/icons/icons8-spotify-128.png) no-repeat;
+  padding: 0 0 0 10px;
+  margin: 5px 0;
+}
+
+.btn_youtube {
+  float: left;
+  clear: both;
+  background: url(/src/images/icons/icons8-youtube-play-192.png) no-repeat;
+  padding: 0 0 0 10px;
+  margin: 5px 0;
+}

@@ -14,7 +14,7 @@ function About() {
                     />
             </Cell>
             <Cell col={6}>
-                <h1>About</h1>
+                <h1 className="pageTitle">About</h1>
                 <p>Text</p>
             </Cell>
         </Grid>

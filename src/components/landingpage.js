@@ -13,7 +13,7 @@ function Landing() {
                             className="landing-img"
                             />
                         <div className="banner-text">
-                            <h1>MARC</h1>
+                            <h1 className="pageTitle">MARC</h1>
 
                             <hr/>
                         </div>
