@@ -43,12 +43,6 @@
   background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.bg-content{
-  background: #c2e59c;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
 .landing-grid{
   text-align:center;
   width: 100%;
@@ -82,14 +76,14 @@
 }
 
 .social-links{
-  display:flex;
   justify-content: space-between;
-  width: 100%;
   margin: auto;
+  width: 100%;
+  color:#d1e0e0;
 }
 
-.social-links i {
-  color:white;
+.social-links img {
+  color:#d1e0e0;
   font-size: 5em;
   padding: 8px;
 }
@@ -103,11 +97,45 @@
 }
 
 .pageTitle{ 
-  color: #CEF0D4;
-  font-family: 'Rouge Script', cursive; font-size: 100px;
+  color: #e6fff8; 
+  font-size: 100px;
+  font-family: 'Vollkorn', serif;
   font-weight: normal;
   line-height: 48px;
   margin: 50px 0 50px;
   text-align: center;
   text-shadow: 1px 1px 1px #082b34;
+}
+
+.aboutText{
+  color: #141f1f;
+  line-height: 2; 
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.iconButton{
+  width: 30px;
+  height: 30px;
+}
+
+.h2{
+  font-family: 'futura-pt-bold'; 
+  font-size: 100px;
+  margin: auto;
+}
+
+.container {
+  max-width: 100%;
+  width: 100%;
+  margin: auto;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 0.6625rem;
+  letter-spacing: .2em;
+  font-family: futura-pt, Helvetica, Arial, sans-serif;
+  color: #d1e0e0;
 }

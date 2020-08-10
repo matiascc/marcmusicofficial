@@ -1,14 +1,12 @@
-.iconButton{
-    width: 30px;
-    height: 30px;
-}
-
 .cellMusic{
     display: flex;
     flex-wrap: wrap;
 }
 
 .songCardImage{
-    height: 80%;
+    height: 60%;
     width: auto;
+    position: absolute;
+    left: 23%;
+    top: 11%;
 }

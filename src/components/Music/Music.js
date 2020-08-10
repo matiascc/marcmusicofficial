@@ -15,11 +15,11 @@ function Music() {
                         <h1 className="pageTitle">Music</h1>
                     </Cell>
                     <Cell className="cellMusic" style={{maxWidth: '90%'}}>
-                        <Card shadow={5} style={{margin: 'auto', marginBottom: '50px'}}>
-                            <CardTitle expand style={{height: '222px'}}>
+                        <Card shadow={5} style={{margin: 'auto', marginBottom: '50px', textAlign: 'center'}}>
+                            <CardTitle expand style={{height: '222px', background: '#e6fff8'}}>
                                 <img className="songCardImage" src={song} alt='song1'></img>
                             </CardTitle>
-                            <CardActions border>
+                            <CardActions border style={{background: '#E0E0E0'}}>
                                 <Button colored>
                                     <a href="https://www.spotify.com/">
                                         <img className="iconButton" src={spotifyIcon} alt="Spotify"/>
@@ -45,8 +45,10 @@ function Music() {
                     </Cell>
                     <Cell className="cellMusic" style={{maxWidth: '90%'}}> 
                         <Card shadow={5} style={{margin: 'auto', marginBottom: '50px'}}>
-                            <CardTitle expand style={{color: '#fff', height: '222px', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Canción 2</CardTitle>
-                            <CardActions border>
+                            <CardTitle expand style={{height: '222px', background: '#e6fff8'}}>
+                                <img className="songCardImage" src={song} alt='song2'></img>
+                            </CardTitle>
+                            <CardActions border style={{background: '#E0E0E0'}}>
                                 <Button colored>
                                     <a href="https://www.spotify.com/">
                                         <img className="iconButton" src={spotifyIcon} alt="Spotify"/>
@@ -72,8 +74,10 @@ function Music() {
                     </Cell>
                     <Cell className="cellMusic" style={{maxWidth: '90%'}}> 
                         <Card shadow={5} style={{margin: 'auto', marginBottom: '50px'}}>
-                            <CardTitle expand style={{color: '#fff', height: '222px', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Canción 3</CardTitle>
-                            <CardActions border>
+                            <CardTitle expand style={{height: '222px', background: '#e6fff8'}}>
+                                <img className="songCardImage" src={song} alt='song3'></img>
+                            </CardTitle>
+                            <CardActions border style={{background: '#E0E0E0'}}>
                                 <Button colored>
                                     <a href="https://www.spotify.com/">
                                         <img className="iconButton" src={spotifyIcon} alt="Spotify"/>
