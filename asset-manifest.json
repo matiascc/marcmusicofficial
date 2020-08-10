@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/marcmusicofficial/static/css/main.cdd6b0f9.chunk.css",
+    "main.js": "/marcmusicofficial/static/js/main.000c8516.chunk.js",
+    "main.js.map": "/marcmusicofficial/static/js/main.000c8516.chunk.js.map",
+    "runtime-main.js": "/marcmusicofficial/static/js/runtime-main.1a1d0dac.js",
+    "runtime-main.js.map": "/marcmusicofficial/static/js/runtime-main.1a1d0dac.js.map",
+    "static/css/2.e4346227.chunk.css": "/marcmusicofficial/static/css/2.e4346227.chunk.css",
+    "static/js/2.ac800ffd.chunk.js": "/marcmusicofficial/static/js/2.ac800ffd.chunk.js",
+    "static/js/2.ac800ffd.chunk.js.map": "/marcmusicofficial/static/js/2.ac800ffd.chunk.js.map",
+    "index.html": "/marcmusicofficial/index.html",
+    "precache-manifest.e120fda5a7d0e20a93fcc1cba4efeab9.js": "/marcmusicofficial/precache-manifest.e120fda5a7d0e20a93fcc1cba4efeab9.js",
+    "service-worker.js": "/marcmusicofficial/service-worker.js",
+    "static/css/2.e4346227.chunk.css.map": "/marcmusicofficial/static/css/2.e4346227.chunk.css.map",
+    "static/css/main.cdd6b0f9.chunk.css.map": "/marcmusicofficial/static/css/main.cdd6b0f9.chunk.css.map",
+    "static/js/2.ac800ffd.chunk.js.LICENSE.txt": "/marcmusicofficial/static/js/2.ac800ffd.chunk.js.LICENSE.txt",
+    "static/media/about.png": "/marcmusicofficial/static/media/about.c32d2896.png",
+    "static/media/beach.jpg": "/marcmusicofficial/static/media/beach.9dd19489.jpg",
+    "static/media/icons8-música-64.png": "/marcmusicofficial/static/media/icons8-música-64.aa71f6f8.png",
+    "static/media/landing.png": "/marcmusicofficial/static/media/landing.1ccf7a17.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1a1d0dac.js",
+    "static/css/2.e4346227.chunk.css",
+    "static/js/2.ac800ffd.chunk.js",
+    "static/css/main.cdd6b0f9.chunk.css",
+    "static/js/main.000c8516.chunk.js"
+  ]
+}
