@@ -43,18 +43,30 @@
   background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.landing-grid{
+.bg-content{
   background: #c2e59c;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.landing-grid{
   text-align:center;
   width: 100%;
-  height: 100%;
+}
+
+.about-img {
+  height: 400px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  max-width: 90%;
 }
 
 .landing-img {
-  height: 60%;
-  padding-top: 5em;
+  width: 500px;
+  max-width: 90%;
+  height: auto;
+  align-content: center;
+  margin-bottom: 5rem;
 }
 
 .banner-text h1{
@@ -92,26 +104,10 @@
 
 .pageTitle{ 
   color: #CEF0D4;
-  font-family: 'Rouge Script', cursive; font-size: 130px;
+  font-family: 'Rouge Script', cursive; font-size: 100px;
   font-weight: normal;
   line-height: 48px;
-  margin: 0 0 50px;
+  margin: 50px 0 50px;
   text-align: center;
-  text-shadow: 1px 1px 2px #082b34;
-}
-
-.btn_spotify {
-  float: left;
-  clear: both;
-  background: url(/src/images/icons/icons8-spotify-128.png) no-repeat;
-  padding: 0 0 0 10px;
-  margin: 5px 0;
-}
-
-.btn_youtube {
-  float: left;
-  clear: both;
-  background: url(/src/images/icons/icons8-youtube-play-192.png) no-repeat;
-  padding: 0 0 0 10px;
-  margin: 5px 0;
+  text-shadow: 1px 1px 1px #082b34;
 }
